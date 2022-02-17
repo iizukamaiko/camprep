@@ -2,8 +2,9 @@
   <Tutorial/>
 </template>
 
-<script>
-export default {
-  name: 'IndexPage'
-}
-</script>
+<style lang="scss" scoped>
+  div {
+    background-color: $yellow;
+  }
+</style>
+
