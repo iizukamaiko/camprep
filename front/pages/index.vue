@@ -1,10 +1,6 @@
 <template>
-  <Tutorial/>
+  <Form/>
 </template>
 
-<style lang="scss" scoped>
-  div {
-    background-color: $yellow;
-  }
-</style>
+<style lang="scss" scoped></style>
 
