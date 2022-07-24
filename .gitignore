@@ -84,6 +84,10 @@
 # Output of 'npm pack'
 /front/*.tgz
 
+# Output of scss compile
+*.css
+*.css.map
+
 # Yarn Integrity file
 /front/.yarn-integrity
 
