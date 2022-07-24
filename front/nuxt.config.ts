@@ -36,10 +36,17 @@ export default {
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  components: [
+    true,
+    {
+      path: '@/components',
+      pathPrefix: false,
+    },
+  ],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxt/typescript-build'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -61,8 +68,7 @@ export default {
     /*
      ** You can extend webpack config here
      */
-     extend (config, ctx) {
-    }
+     extend(config: any, ctx: any) {}
   },
 
   server: {
