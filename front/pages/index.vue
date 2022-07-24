@@ -1,5 +1,4 @@
 <template>
-  <Tutorial/>
 </template>
 
 <style lang="scss" scoped>
@@ -7,4 +6,3 @@
     background-color: $yellow;
   }
 </style>
-
